@@ -1,7 +1,7 @@
-# Muniz
+# Muñiz
 Proyecto dedicado a un Club del Futbol Argentino
 
 
-# Run:
+## Run:
 -npm i
 -npm start
