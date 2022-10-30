@@ -1,7 +1,7 @@
 # Muñiz
-Proyecto dedicado a un Club del Futbol Argentino
+###### Proyecto dedicado al Club Social Cultural y Deportivo Muñiz
 
 
 ## Run:
--npm i
--npm start
+###### -npm i
+###### -npm start
