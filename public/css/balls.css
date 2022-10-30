@@ -1,0 +1,164 @@
+/* left */
+#ball{
+    position: absolute;
+    width:20vh;
+    top:135vh;
+    left: 4vh;
+    scroll-behavior: smooth;
+  }
+  
+  #ballE{
+    position: absolute;
+    width:20vh;
+    top:230vh;
+    left: 4vh;
+    scroll-behavior: smooth;
+  }
+
+
+
+  #ballT{
+    position: absolute;
+    width:20vh;
+    top:380vh;
+    left: 4vh;
+    scroll-behavior: smooth;
+  }
+
+
+  #ballU{
+    position: absolute;
+    width:20vh;
+    top:40vh;
+    left: 4vh;
+    scroll-behavior: smooth;
+  }
+
+
+  #ballO{
+    position: absolute;
+    width:20vh;
+    top:40vh;
+    right:139.5vh;
+    scroll-behavior: smooth;
+  }
+
+  #ballA{
+    position: absolute;
+    width:20vh;
+    top:740vh;
+    right:173.5vh;
+    scroll-behavior: smooth;
+  }
+
+  #ballD{
+    position: absolute;
+    width:20vh;
+    top:310vh;
+    right:173.5vh;
+    scroll-behavior: smooth;
+  }
+
+/* right */
+#ballQ{
+    position: absolute;
+    width:20vh;
+    top:135vh;
+    left: 174vh;
+  }
+
+
+
+  #ballR{
+    position: absolute;
+    width:20vh;
+    top:230vh;
+    left: 174vh;
+  }
+
+
+  #ballY{
+    position: absolute;
+    width:20vh;
+    top:380vh;
+    left: 174vh;
+  }
+
+  #ballI{
+    position: absolute;
+    width:20vh;
+    top:40vh;
+    left: 174vh;
+  }
+
+  #ballP{
+    position: absolute;
+    width:20vh;
+    top:40vh;
+    left: 140vh;
+  }
+
+
+  #ballS{
+    position: absolute;
+    width:20vh;
+    top:20vh;
+    left: 126vh;
+  }
+
+
+  #ballF{
+    position: absolute;
+    width:20vh;
+    top:20vh;
+    left: 144vh;
+  }
+
+  #ball:hover,  
+  #ballQ:hover,
+  #ballE:hover,
+  #ballR:hover,
+  #ballT:hover,
+  #ballY:hover,
+  #ballU:hover,
+  #ballI:hover,
+  #ballO:hover,
+  #ballP:hover,
+  #ballA:hover,
+  #ballS:hover,
+  #ballD:hover,
+  #ballF:hover{
+    filter:none
+}
+
+#ball,  
+#ballQ,
+#ballE,
+#ballR,
+#ballT,
+#ballY,
+#ballU,
+#ballI,
+#ballO,
+#ballP,
+#ballA,
+#ballS,
+#ballD,
+#ballF{
+    filter: grayscale();
+    border-radius: 8px;
+	margin-bottom: 1rem;
+	transition: filter 0.4s ease-in-out;
+}
+
+  
+
+
+
+
+
+
+  
+
+
+

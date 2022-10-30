@@ -1,0 +1,100 @@
+#history{
+    display: flex;
+    flex-wrap: wrap;
+    width: 130vh;
+    text-align: justify;
+    position: relative;
+    left: 34vh;
+    top: 30vh;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+#titleHistory {
+ 
+    position: relative;
+    left:55vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+ text-decoration: underline ;
+
+}
+
+
+#players{
+    display: flex;
+    flex-wrap: wrap;
+    width: 130vh;
+    text-align: justify;
+    position: relative;
+    left: 34vh;
+    top: 30vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 30vh;
+}
+
+#titlePlayers {
+    display: flex;
+    position: relative;
+    left:50vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+ text-decoration: underline ;
+}
+
+#subtitlePlayers{
+    display: flex;
+    position: relative;
+    right:20.8vh;
+    top: 5vh;
+    font-family: sans-serif;
+    text-decoration: underline ;
+
+}
+
+
+#datesClub{
+    display: flex;
+    flex-wrap: wrap;
+    width: 130vh;
+    text-align: justify;
+    position: relative;
+    left: 34vh;
+    top: 20vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    height: 39vh;
+}
+
+#titleDatesClub{
+    display: flex;
+    position: relative;
+    left:46vh;
+    top:4vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+ text-decoration: underline ;
+}
+
+#titleTotal{
+    display: flex;
+    
+    position: relative;
+    left:55vh;
+    bottom: 3vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+ text-decoration: underline ;
+}
+
+#total{
+    position: relative;
+    left:35vh;
+    top: 3vh;
+}

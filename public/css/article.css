@@ -1,0 +1,110 @@
+
+#last {
+    color: black;
+    font-family:  Sans-serif;
+    position: relative;
+    left: 65vh;
+    top: 5vh;
+}
+
+
+#next {
+    color: #D21018;
+    font-family:  Sans-serif;
+    position: relative;
+    left:115vh;
+    bottom:41vh;
+    z-index: 1;
+}
+
+
+#lastImg {
+    position: relative;
+    left: 60vh;
+    top:7vh;
+}
+
+#aDefinir{
+position: relative;
+left: 115vh;
+bottom: 42vh;
+z-index: 0;
+}
+
+#separatorLine {
+    position: relative;
+    background-color: black;
+    width:41.5vh;
+height: 3px;
+left: 59.8vh;
+top: 9vh;
+}
+
+#separatorLineT {
+    position: relative;
+    background-color: #D21018;
+    width:41.5vh;
+height: 3px;
+left: 110.8vh;
+bottom: 45.5vh;
+}
+
+#result{
+    position:relative;
+    color: black;
+    left: 60vh;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 22px ;
+    top:9vh;
+}
+
+#detail{
+    position:relative;
+    color: black;
+    left: 60vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px ;
+    top: 7vh;    
+}
+
+#date{
+    position:relative;
+    color: black;
+    left: 60vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px ;
+    top: 5vh; 
+}
+
+#stadium{
+    position:relative;
+    color: black;
+    left: 60vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px ;
+    top: 3vh;
+}
+
+#separator{
+    position: relative;
+    background-color: black;
+    height: 3px;
+    width: 105vh;
+    left: 46vh;
+    bottom: 42vh;
+}
+
+#team{
+    position: relative;
+    left: 30vh;
+    bottom: 45vh;
+    opacity: .7;
+    height: 50vh;
+    width: 138.5vh;
+    border: 2px solid #D21018;
+    bottom: 38vh;
+}

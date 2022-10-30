@@ -1,0 +1,40 @@
+.carousel{
+    background-color: black;
+    height: 38vh;
+    width: 138.5vh;
+    left: 30vh;
+    bottom: 15vh;
+    padding-top: 3.5vh;
+    opacity: 0.8;
+}
+.carousel-inner{
+    opacity: 20;
+}
+
+
+.carousel-control-prev-icon{
+position: relative;
+left: 30vh;
+
+}
+
+
+.carousel-control-next-icon{
+    position: relative;
+right: 30vh;
+}
+
+.d-block {
+    position: relative;
+    width: 30vh;
+    display:flex;
+    left: 54vh;
+    top: 0vh;
+}
+.carousel-control-prev-icon{
+    width: 40px;
+}
+#redes{
+    position:relative;
+    bottom: 35vh;
+}

@@ -1,0 +1,70 @@
+iframe{
+    position: relative;
+    left: 40vh;
+    bottom:35vh;
+    width: 60%;
+    height: 40em
+}
+
+#titleTv {
+    position: relative;
+    left: 65vh;
+    bottom:35vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+
+}
+
+#scrollTv{
+    position: relative;
+    bottom: 40vh;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    right: 31vh;
+    bottom: 23vh;
+}
+
+button {
+    background: linear-gradient(90deg, transparent, #D21018);
+    animation: btn-anim1 1s linear infinite;
+    box-shadow: 0 0 20px #D21018;
+
+}
+
+button:hover {
+    background: linear-gradient(90deg, #D21018, black);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #D21018,
+                0 0 25px #D21018,
+                0 0 50px #D21018,
+                0 0 100px #D21018;
+  }
+
+button {
+    position: relative;
+    display: inline-block;
+border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 3;
+}
+
+
+

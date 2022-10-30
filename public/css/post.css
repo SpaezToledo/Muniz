@@ -1,0 +1,41 @@
+#posting {
+    position:relative   ;
+    top: 8vh;
+    height: 90vh;
+    width: 90vh;
+    left: 55vh;
+}
+
+
+#postTitle{
+    position: relative;
+    top: 0vh;
+    left: 75vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
+
+#postingInf{
+    position:relative   ;
+    top: 10vh;
+    height: 90vh;
+    width: 90vh;
+    left: 55vh;
+}
+
+#infTitle{
+    position: relative;
+    top: 5vh;
+    left: 85vh;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+#inferiores{
+    position: relative;
+    top: 8vh;
+}

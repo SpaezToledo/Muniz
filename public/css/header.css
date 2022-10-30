@@ -1,0 +1,104 @@
+/* TopHeader */
+#topHeader{
+    width:102.6%;
+    height: 20px;
+    background-color: #CA1010;
+}
+
+#topHeader{
+    position:relative;
+    right:35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/* items */
+.fa-bolt,
+.fa-phone,
+.fa-envelope,
+#mail{
+  position: relative;
+  color: white;
+}
+
+.fa-phone{
+  left: 87vh;
+}
+.fa-envelope{
+  left:44vh;
+}
+#mail{
+  left: 0vh;
+  top: 0.7vh;
+}
+
+
+
+
+/* Header */
+#mainHeader{
+  display: flex;
+  background-color: black;
+  height: 10vh;
+}
+
+#mainHeader img {
+  position: relative;
+  left: 94vh;
+  display: flex;
+  align-items: center;
+ margin-top: 10px;
+
+}
+
+#mainHeader ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0 4% ;
+
+
+}
+
+#mainHeader a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: Arial,sans-serif;
+  font-weight: 600;
+  line-height: 1.618;
+  position: relative;
+  top: 5px;
+  
+}
+
+
+
+
+
+#mainHeader li {
+width: 5em;
+position: relative;
+left: 42vh;
+display: flex;
+
+} 
+
+#oneL li{
+  width:7em;
+}
+
+#twoL li{
+  width:7em;
+  
+}
+
+
+
+
+
+
+

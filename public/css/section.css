@@ -1,0 +1,45 @@
+
+#shield{
+    position: relative;
+    left: 77vh;
+    margin-top: 5vh;
+}
+
+#title{
+    text-align: center;
+    font-size: 90px;
+    font-family:  Sans-serif;
+    font-weight: 900;
+    margin-top: 0vh;
+    -webkit-text-stroke: 1px #D21018;
+}
+
+ #ray{
+    position: relative;
+    left: 85vh;
+    bottom: 0vh;
+} 
+
+
+#rayW{
+    position:absolute;
+display: flex;
+width: 15.3%;
+height: 40vh;
+top: 35vh;
+right:165vh;
+-webkit-transform:rotate(90deg);
+}
+
+#rayWright{
+    position:absolute;
+display: flex;
+width: 15.3%;
+height: 40vh;
+top: 30vh;
+left:165vh;
+-webkit-transform:rotate(210deg); 
+}
+
+
+

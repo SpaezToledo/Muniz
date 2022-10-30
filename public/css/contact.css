@@ -1,0 +1,75 @@
+#contactBox{
+    display: flex;
+background-color: black;
+height: 33vh;
+position: relative;
+top: 30vh;
+width: 100vh;
+left: 48vh;
+z-index: 3;
+} 
+
+#contact{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+#contact h2{
+    position: relative;
+    bottom: 1vh;
+    right: 3vh;
+    color: #CA1010;
+}
+
+#contact h5{
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+#contactP{
+    position: relative;
+    left: 10vh;
+    bottom: 3.1vh;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+
+#emailP {
+    position: relative;
+    left:7vh;
+    bottom: 3.1vh;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    outline: none;
+}
+
+#emailP:hover{
+    color: #CA1010;
+    text-decoration-color:#CA1010;
+    outline: none;
+}
+
+
+#circle {
+    padding: 0.6vh;
+    margin: 0.5;
+    width: 1px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #CA1010;
+z-index: 1;
+    position: relative;
+    top: 2vh;
+    right: 2.5vh;
+}
+
+
+#contactScroll{
+    position: relative;
+    top:20vh;
+}
