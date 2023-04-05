@@ -1,0 +1,844 @@
+@media only screen and (max-width : 1450px) and (min-width : 768px) {
+
+body {
+ 
+ 
+}
+ 
+          
+          html{
+              scroll-behavior: smooth;
+             
+          }
+      
+        /* TopHeader*/
+        #topHeader{
+        
+          width: 155.4vh;
+          height: 30px;
+      
+             position: relative;
+             
+        }   
+        
+        
+        
+        /* items */
+        .fa-bolt,
+        .fa-phone,
+        .fa-envelope,
+        #mail{
+        position: relative;
+        color: white;
+        }
+        
+        
+        .fa-bolt{
+          left:5vh;
+        }
+        
+        .fa-phone{
+        left: 61vh;
+        }
+        .fa-envelope{
+        left:30vh;
+        }
+        #mail{
+        
+        top: 0.7vh;
+        }
+        
+        
+        
+        /* Header */
+        #mainHeader{
+          display: flex;
+          background-color: black;
+          height: 15vh;
+          width: 151.7vh;
+       padding: 0;
+       margin: 0;
+          position: absolute;
+          z-index: 1;
+        }
+        
+        #mainHeader img {
+          position: relative;
+          left: 72.8vh;
+          display: flex;
+          align-items: center;
+         top:20px;
+        
+        }
+        
+        #mainHeader ul {
+          display: flex;
+          list-style-type: none;
+          align-items: center;
+        
+        
+        }
+        
+        #mainHeader a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          font-family: Arial,sans-serif;
+          font-weight: 600;
+          line-height: 1.618;
+          position: relative;
+          top: 10px;
+          
+        }
+        
+        
+        
+        
+        
+        #mainHeader li {
+        
+        position: relative;
+        left: 8.5vh;
+        display: flex;
+        
+        } 
+        
+        #oneL li{
+          width:10.8em;
+        }
+        
+        #twoL li{
+          width:10.8em;
+          
+        }
+        
+        #background{
+width: 20vh;
+top:10vh;
+height: 566.6rem;
+
+        } 
+        
+        #backgroundRight{
+            width: 20vh;
+            left: 131.7vh;
+            height: 565.4rem;
+           
+        }
+        
+        
+        #ball,  
+        #ballQ,
+        #ballE,
+        #ballR,
+        #ballT,
+        #ballY,
+        #ballU,
+        #ballI,
+        #ballO,
+        #ballP,
+        #ballA,
+        #ballS,
+        #ballD,
+        #ballF
+        {
+          width: 15vh;
+        }
+        #ball{
+          top:140vh ;
+         left: 2vh;
+         width: 15vh;
+        }
+      
+        #ballE{
+       
+          left: 2vh;
+         
+        }
+      
+      
+      
+        #ballT{
+     
+          left: -28vh;
+        top: 95vh;
+        }
+      
+      
+        #ballU{
+        
+          left: -30vh;
+         top: 95vh;
+        }
+      
+      
+        #ballO{
+         
+          right:103.5vh;
+        
+        }
+      
+        #ballA{
+        top:820vh;
+        left: 2vh;
+         
+        }
+      
+        #ballD{
+        
+          right:135.5vh;
+          top: 340vh;
+        }
+      
+      /* right */
+      #ballQ{
+         top: 43vh;
+          left:78vh;
+        }
+      
+      
+      
+        #ballR{
+       
+          left: 134vh;
+        }
+      
+      
+        #ballY{
+         top: 94vh;
+          left: 104vh;
+        }
+      
+        #ballI{
+        top: 95vh;
+          left: 104vh;
+        }
+      
+        #ballP{
+         
+          left: 104vh;
+        }
+      
+      
+        #ballS{
+        top: 25vh;
+          left: 104vh;
+        }
+      
+      
+        #ballF{
+         top: 30vh;
+          left: 114vh;
+        }
+
+
+
+
+
+
+
+
+
+          #shield{
+              position: absolute;
+             left:56vh;
+              margin-top: 20vh;
+          }
+      
+          #title{
+              text-align: center;
+              font-size: 65px;
+              font-family:  Sans-serif;
+              font-weight: 900;
+              margin-top: 65vh;
+              -webkit-text-stroke: 1px #D21018;
+              position: absolute;
+              left: 38vh;
+          }
+      
+      
+          #ray{
+              position: relative;
+              left: 68vh;
+              top:78vh;
+              width:15vh ;
+          } 
+      
+      
+           #rayW, #rayWright, #lineRed, #lineRedRight {
+              display: none;
+          }
+      
+      
+      
+      
+      
+      
+        /* article */
+      #lastResult{
+        position: absolute;
+        left: 56vh;
+        top:98vh    
+      }
+        #last {
+          color: black;
+          font-family:  Sans-serif;
+          position: relative;
+          left: 1.5vh;
+          top: 5vh;
+      }
+      
+      #lastImg {
+          position: relative;
+          left: -2vh;
+          top:7vh;
+      }
+      
+      #separatorLine {
+          position: relative;
+          background-color: black;
+          width:41.5vh;
+      height: 3px;
+      left: -2vh;
+      top: 9vh;
+      }
+      
+      
+      #result{
+          position:relative;
+          color: black;
+          left: -2vh;
+          font-family: sans-serif;
+          font-weight: 800;
+          font-size: 22px ;
+          top:9vh;
+      }
+      
+      #detail{
+          position:relative;
+          color: black;
+          left: -2vh;
+          font-family: sans-serif;
+          font-weight: 500;
+          font-size: 20px ;
+          top: 7vh;    
+      }
+      
+      #date{
+          position:relative;
+          color: black;
+          left: -2vh;
+          font-family: sans-serif;
+          font-weight: 500;
+          font-size: 15px ;
+          top: 5vh; 
+      }
+      
+      #stadium{
+          position:relative;
+          color: black;
+          left: -2vh;
+          font-family: sans-serif;
+          font-weight: 600;
+          font-size: 15px ;
+          top: 3vh;
+      }
+      
+      
+      #separator, #next, #aDefinir, #separatorLineT, #nextMatch {
+       display: none;
+      }
+      
+      #team{
+          left: 25.5vh;
+          width: 100.8vh;
+          top:150vh;
+          position: absolute;
+
+          }
+          
+      
+      
+      
+      
+      /* tv */
+      
+      iframe{
+          position: absolute;
+          left: 23vh;
+          top:210vh;
+          width: 68.8%;
+          height: 50em
+      }
+      
+      #titleTv {
+          position: absolute;
+          left: 43vh;
+          top:205vh;
+          font-size: 30px;
+          font-family: sans-serif;
+          font-weight: 800;
+      
+      }
+      
+      
+      
+      button {
+      
+          padding: 10px 20px;
+      
+          font-size: 16px;
+      
+          margin-top: 40px;
+      position: absolute;
+          width: 25vh;
+          height: 5vh;
+          left: 62vh;
+          top:300vh;
+      }
+      
+      
+      /* carrousel */
+      
+      .carousel{
+      
+          height: 50vh;
+          width: 111.7vh;
+          left: 20vh;
+          top:  290vh;
+          padding-top: 8.5vh;
+    
+      
+      }
+      
+      
+      
+      
+      .carousel-control-prev-icon{
+          position: relative;
+          left: 0vh;
+      
+          }
+          .carousel-control-next-icon{
+              position: relative;
+          right: 5vh;
+          }
+      
+          .d-block {
+              position: relative;
+              width: 30vh;
+              display:flex;
+              left:41vh;
+              top: 0vh;
+             
+          }
+      
+      
+      
+          /* posting */
+      #post{
+        position: absolute;
+        top: 330vh;
+        left: 30vh;
+      }
+          #posting {
+            position:relative   ;
+            top: 45vh;
+            height: 90.5vh;
+            width: 90.5vh;
+            left: 0vh;
+        }
+        
+        
+        #postTitle{
+            position: relative;
+            top: 40vh;
+            left: 15vh;
+            font-size: 40px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        
+        
+        
+        #postingInf{
+            position:relative   ;
+            top: 45vh;
+            height: 90.5vh;
+            width: 90.5vh;
+            left: 0vh;
+        }
+        
+        #infTitle{
+            position: relative;
+            top: 40vh;
+            left: 26vh;
+            font-size: 40px;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        
+        #inferiores{
+            position: absolute;
+            top: 435vh;
+            left:31vh
+        }
+      
+      
+      /* history */
+      
+      #history{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vh;
+        text-align: justify;
+        position: relative;
+        left: 30.5vh;
+        top: 515vh;
+        font-family: sans-serif;
+        font-weight: 600;
+      }
+      
+      
+      #titleHistory {
+      
+        position: relative;
+        left:35vh;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+      text-decoration: underline ;
+      
+      }
+      
+      
+      #players{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vh;
+        text-align: justify;
+        position: relative;
+        left: 30.5vh;
+        top: 525vh;
+        font-family: sans-serif;
+        font-weight: 600;
+        height: 30vh;
+      }
+      
+      #titlePlayers {
+        display: flex;
+        position: relative;
+        left:32vh;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+      text-decoration: underline ;
+      bottom: 10vh;
+      }
+      
+      #subtitlePlayers{
+        display: flex;
+        position: relative;
+        right:20.8vh;
+        top: 0vh;
+        font-family: sans-serif;
+        text-decoration: underline ;
+      
+      }
+      
+      
+      #datesClub{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vh;
+        text-align: justify;
+        position: relative;
+        left: 30.5vh;
+        top: 525vh;
+        font-family: sans-serif;
+        font-weight: 600;
+        height: 39vh;
+      }
+      
+      #titleDatesClub{
+        display: flex;
+        position: relative;
+        left:28vh;
+        top:0vh;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+      text-decoration: underline ;
+      }
+      
+      #titleTotal{
+        display: flex;
+        
+        position: relative;
+        left:37vh;
+        top: 0vh;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: 800;
+      text-decoration: underline ;
+      }
+      
+      #total{
+        position: relative;
+        left:18vh;
+        top: 8vh;
+      }
+      
+      
+      /* contact */
+      
+      
+      #contactBox{
+        display: flex;
+      background-color: black;
+      height: 36vh;
+      position: absolute;
+      top: 795vh;
+      width: 90.5vh;
+      left: 30.5vh;
+      z-index: 3;
+      } 
+      
+      #contact{
+        display: flex;
+        color: white;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-top: 0px;
+      }
+      #contact h2{
+        position: relative;
+        top: 3vh;
+       left: 28vh;
+        color: #CA1010;
+      }
+      
+      #contact h5{
+        font-family: sans-serif;
+        font-weight: 200;
+        position: relative;
+        top: 5vh;
+      }
+      
+      #contactP{
+        position: relative;
+        left: 10vh;
+      
+        font-family: sans-serif;
+        font-weight: 700;
+        top: 1.9vh;
+      }
+      
+      
+      #emailP {
+        position: relative;
+        left: 8vh;
+        top: 2vh;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: white;
+        outline: none;
+      }
+      
+      #emailP:hover{
+        color: #CA1010;
+        text-decoration-color:#CA1010;
+        outline: none;
+      }
+      
+      
+      #circle {
+        padding: 0.6vh;
+        margin: 0.5;
+        width: 1px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        background: #CA1010;
+      z-index: 1;
+        position: relative;
+        top: 7vh;
+        right: 2.5vh;
+      }
+      
+      
+      #contactScroll{
+        position: relative;
+        top:20vh;
+      }
+      
+      
+      /* footer */
+      
+footer{
+    position: absolute;
+    top:792.8vh;
+    right: 69.8vh;
+    
+}
+
+
+      #firstBackgroundFooter{
+        position: relative;
+        left: 50vh;
+        width:111.8vh;
+        background-color: #A21F24;
+        height: 80vh;
+        top: 60.6vh; 
+        z-index:2;  
+    }
+    
+    
+    
+    #secondBackgroundFooter{
+        position: relative;
+        left: 50vh;
+        width:111.8vh;
+        background-color:#6C1115;
+        height: 24vh;
+        top: 3.3vh;
+    }
+    
+    
+    
+    #copy {
+        position: relative;
+        top: 8vh;
+        right: 16vh;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        color: white;
+    }
+    
+    
+    #developing {
+        position: relative;
+        top: 8vh;
+        left: 85vh;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        color: white;
+    }
+    
+    
+    #followUs{
+        font-family: Montserrat,sans-serif;
+        font-size: 14px;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        top: 8.8vh;
+        left: 2.5vh;
+    }
+    
+    .fa-youtube,
+    .fa-instagram,
+    .fa-square-facebook,
+    .fa-twitter,
+    .fa-tiktok{
+        color: white;
+        font-size: 27px;
+        position: relative;
+        left:14vh;
+        width: 4.8vh;
+        top: 4.5vh;
+    }
+    
+    
+    #contactUs{
+        font-family: Montserrat,sans-serif;
+        font-size: 14px;
+        color: white;
+        font-weight: 700;
+        position: relative;
+        top: 1.9vh;
+        left: 41vh;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    #shieldFooter{
+        position: relative;
+        left: 90vh;
+        width: 30vh;
+        bottom:10vh;
+        z-index:3;
+    }
+    
+    
+    
+    #separatorLineFooter{
+        background-color: white;
+        width: 85vh;
+        height: 2px;
+        bottom:5vh;
+        left: 63vh;
+        z-index:3;
+        
+        position: relative;
+    }
+    
+    
+    
+    #sponsor{
+        top: 6vh;
+        left:94vh;
+        z-index:3;
+        position: relative;
+    }
+    
+    
+    #sponsorFont{
+        color: #fff;
+    
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 44px;
+    bottom: 21vh;
+        z-index: 3;
+        position: relative;
+        left: 98.5vh;
+    }
+    
+    
+    
+    #sponsor{
+        filter: grayscale();
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+        margin-bottom: 1rem;
+        transition: filter 0.4s ease-in-out;
+    }
+    
+    
+    #sponsor:hover{
+     filter:none
+    }
+    
+    
+    
+    #shieldFooter:hover{
+            content:"";
+    bottom: 0vh;
+            transition:1.9s;
+            transform:rotate(-360deg) translate(0,-100px);
+          
+    }
+    
+    
+
+
+
+
+}

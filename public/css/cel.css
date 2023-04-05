@@ -1,0 +1,721 @@
+
+@media only screen and (min-width : 300px) and  (max-width : 480px){
+
+    
+    html{
+        scroll-behavior: smooth;
+    }
+
+  /* TopHeader*/
+  #topHeader{
+    width: 180%;
+    height: 30px;
+  }   
+  
+  
+  
+  /* items */
+  .fa-bolt,
+  .fa-phone,
+  .fa-envelope,
+  #mail{
+  position: relative;
+  color: white;
+  }
+  
+  
+  .fa-bolt{
+    left:5vh;
+  }
+  
+  .fa-phone{
+  left: 20vh;
+  }
+  .fa-envelope{
+  left:10.5vh;
+  }
+  #mail{
+  left: 0vh;
+  top: 0.7vh;
+  }
+  
+  
+  
+  /* Header */
+  #mainHeader{
+    display: flex;
+    background-color: black;
+    height: 15vh;
+    width: 168.3%;
+  }
+  
+  #mainHeader img {
+    position: relative;
+    left: 27.5vh;
+    display: flex;
+    align-items: center;
+   bottom: 40px;
+  
+  }
+  
+  #mainHeader ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  
+  
+  }
+  
+  #mainHeader a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.618;
+    position: relative;
+    top: 38px;
+    
+  }
+  
+  
+  
+  
+  
+  #mainHeader li {
+  
+  position: relative;
+  left: -8vh;
+  display: flex;
+  
+  } 
+  
+  #oneL li{
+    width:4.8em;
+  }
+  
+  #twoL li{
+    width:4.8em;
+    
+  }
+  
+  #background, #backgroundRight{
+    display: none;
+  }
+  
+  
+  #ball,  
+  #ballQ,
+  #ballE,
+  #ballR,
+  #ballT,
+  #ballY,
+  #ballU,
+  #ballI,
+  #ballO,
+  #ballP,
+  #ballA,
+  #ballS,
+  #ballD,
+  #ballF
+  {
+    display: none;
+  }
+
+
+    #shield{
+        position: relative;
+       left:8vh;
+        margin-top: 5vh;
+    }
+
+    #title{
+      display: flex;
+        text-align: center;
+        font-size:120px;
+        font-family:  Sans-serif;
+        font-weight: 900;
+        margin-top: 0vh;
+        margin-left: 5vh;
+        -webkit-text-stroke: 1px #D21018;
+    }
+
+
+    #ray{
+        position: relative;
+        left: 22vh;
+        bottom: 1vh;
+        width:15vh ;
+    } 
+
+
+     #rayW, #rayWright, #lineRed, #lineRedRight {
+        display: none;
+    }
+
+
+
+
+
+
+  /* article */
+#lastResult{
+position: relative;
+left: 10vh;
+}
+  #last {
+    color: black;
+    font-family:  Sans-serif;
+    position: relative;
+    left: 5vh;
+    top: 5vh;
+    display: flex;
+    text-align: center;
+    width: 100vh;
+}
+
+#lastImg {
+    position: relative;
+    left: -2vh;
+    top:7vh;
+}
+
+#separatorLine {
+    position: relative;
+    background-color: black;
+    width:41.5vh;
+height: 3px;
+left: 0vh;
+top: 9vh;
+}
+
+
+#result{
+    position:relative;
+    color: black;
+    left: 0vh;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 22px ;
+    top:9vh;
+    width: 100vh;
+}
+
+#detail{
+    position:relative;
+    color: black;
+    left: 0vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px ;
+    top: 7vh;    
+}
+
+#date{
+    position:relative;
+    color: black;
+    left: 0vh;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px ;
+    top: 5vh; 
+}
+
+#stadium{
+    position:relative;
+    color: black;
+    left: 0vh;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px ;
+    top: 3vh;
+}
+
+
+#separator, #next, #aDefinir, #separatorLineT, #nextMatch {
+ display: none;
+}
+
+#team{
+    left: 7vh;
+    width: 48.8vh;
+    top:5vh;
+    }
+    
+
+
+
+
+/* tv */
+
+iframe{
+    position: relative;
+    left: 3vh;
+    top:8vh;
+    width: 57.1vh;
+    height: 20em
+}
+
+#titleTv {
+    position: relative;
+    left: 9.5vh;
+    top:8vh;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 800;
+    width: 100vh;
+
+}
+
+
+
+button {
+
+    padding: 10px 20px;
+
+    font-size: 16px;
+
+    margin-top: 40px;
+
+    left:18vh;
+    top:14vh;
+}
+
+
+/* carrousel */
+
+.carousel{
+
+    height: 25vh;
+    width: 64.4vh;
+    left: 0vh;
+    top: 20vh;
+    padding-top: 3.5vh;
+ 
+
+}
+
+
+
+
+.carousel-control-prev-icon{
+    position: relative;
+    left: 0vh;
+
+    }
+    .carousel-control-next-icon{
+        position: relative;
+    right: 5vh;
+    }
+
+    .d-block {
+        position: relative;
+        width: 15vh;
+        display:flex;
+        left: 24.5vh;
+        top: 0vh;
+       
+    }
+
+
+
+    /* posting */
+#post{
+  position: relative;
+  left:5vh
+}
+    #posting {
+      position:relative   ;
+      top: 45vh;
+      height: 47.5vh;
+      width: 47.5vh;
+      left: 4vh;
+  }
+  
+  
+  #postTitle{
+      position: relative;
+      top: 40vh;
+      left: 5vh;
+      font-size: 23px;
+      font-family: sans-serif;
+      font-weight: 800;
+      width: 100vh;
+  }
+  
+  
+  
+  #postingInf{
+      position:relative   ;
+      top: 45vh;
+      height: 47.5vh;
+      width: 47.5vh;
+      left: 9vh;
+  }
+  
+  #infTitle{
+      position: relative;
+      top: 44vh;
+      left: 10vh;
+      font-size: 30px;
+      font-family: sans-serif;
+      font-weight: 800;
+      width: 100vh;
+  }
+  
+  #inferiores{
+      position: relative;
+      top: 8vh;
+  }
+
+
+/* history */
+
+#history{
+  display: flex;
+  flex-wrap: wrap;
+  width: 46vh;
+  text-align: justify;
+  position: relative;
+  left: 9.5vh;
+  top: 60vh;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+
+#titleHistory {
+
+  position: relative;
+  left:13vh;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+text-decoration: underline ;
+
+}
+
+
+#players{
+  display: flex;
+  flex-wrap: wrap;
+  width: 46vh;
+  text-align: justify;
+  position: relative;
+  left: 8.5vh;
+  top: 70vh;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 30vh;
+}
+
+#titlePlayers {
+  display: flex;
+  position: relative;
+  left:10vh;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+text-decoration: underline ;
+bottom:8vh;
+}
+
+#subtitlePlayers{
+  display: flex;
+  position: relative;
+  right:22.8vh;
+  top: 0vh;
+  font-family: sans-serif;
+  text-decoration: underline ;
+
+}
+
+
+#datesClub{
+  display: flex;
+  flex-wrap: wrap;
+  width: 46vh;
+  text-align: justify;
+  position: relative;
+  left: 8.5vh;
+  top: 90vh;
+  font-family: sans-serif;
+  font-weight: 600;
+  height: 39vh;
+}
+
+#titleDatesClub{
+  display: flex;
+  position: relative;
+  left:0vh;
+  top:0vh;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+text-decoration: underline ;
+}
+
+#titleTotal{
+  display: flex;
+  
+  position: relative;
+  left:15vh;
+  top: 5vh;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 800;
+text-decoration: underline ;
+}
+
+#total{
+  position: relative;
+  left:-5vh;
+  top: 12vh;
+}
+
+
+/* contact */
+
+
+#contactBox{
+  display: flex;
+background-color: black;
+height: 50vh;
+position: relative;
+top: 120vh;
+width: 55.5vh;
+left: 4vh;
+z-index: 3;
+} 
+
+#contact{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 0px;
+}
+#contact h2{
+  position: relative;
+  top: 3vh;
+ left: 5vh;
+  color: #CA1010;
+}
+
+#contact h5{
+  font-family: sans-serif;
+  font-weight: 200;
+  position: relative;
+  top: 5vh;
+}
+
+#contactP{
+  position: relative;
+  left: 0vh;
+
+  font-family: sans-serif;
+  font-weight: 700;
+  top: 5vh;
+}
+
+
+#emailP {
+  position: relative;
+  left:0vh;
+  top: 5vh;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: white;
+  outline: none;
+}
+
+#emailP:hover{
+  color: #CA1010;
+  text-decoration-color:#CA1010;
+  outline: none;
+}
+
+
+#circle {
+  padding: 0.6vh;
+  margin: 0.5;
+  width: 1px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #CA1010;
+z-index: 1;
+  position: relative;
+  top: 7vh;
+  right: 2.5vh;
+}
+
+
+#contactScroll{
+  position: relative;
+  top:20vh;
+}
+
+
+/* footer */
+footer{
+  position: relative;
+  left:0vh;
+  bottom: 5vh;
+}
+#firstBackgroundFooter{
+  position: relative;
+  left: 0vh;
+  width:63.6vh;
+  background-color: #A21F24;
+  height: 90vh;
+  top: 150vh; 
+  z-index:2;  
+}
+
+
+
+#secondBackgroundFooter{
+  position: relative;
+  left: 0vh;
+  width:63.6vh;
+  background-color:#6C1115;
+  height: 50vh;
+  top: 82.5vh;
+}
+
+
+
+#copy {
+  position: relative;
+  top: 30vh;
+  left: 2vh;
+  font-family: Roboto,sans-serif;
+  font-size: 15px;
+display: flex;
+  color: white;
+}
+
+
+#developing {
+  position: relative;
+  top: 25vh;
+  left: 39vh;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  color: white;
+}
+
+
+#followUs{
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 20.8vh;
+  left: 2.5vh;
+}
+
+.fa-youtube,
+.fa-instagram,
+.fa-square-facebook,
+.fa-twitter,
+.fa-tiktok{
+  color: white;
+  font-size: 27px;
+  position: relative;
+  left:20vh;
+  width: 4.8vh;
+  top: 15.5vh;
+}
+
+
+#contactUs{
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 16.9vh;
+  left: 1vh;
+  text-transform: uppercase;
+}
+
+
+
+#shieldFooter{
+  position: relative;
+  left: 18vh;
+  width: 30vh;
+  top:70vh;
+  z-index:3;
+}
+
+
+
+#separatorLineFooter{
+  background-color: white;
+  width: 40vh;
+  height: 2px;
+  top:74vh; 
+  left: 13vh;
+  z-index:3;
+  
+  position: relative;
+}
+
+
+
+#sponsor{
+  top: 86vh;
+  left:20vh;
+  z-index:3;
+  position: relative;
+}
+
+
+#sponsorFont{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 44px;
+top: 55vh;
+  z-index: 3;
+  position: relative;
+  left: 25vh;
+}
+
+
+
+#sponsor{
+  filter: grayscale();
+  border-radius: 8px;
+box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+margin-bottom: 1rem;
+transition: filter 0.4s ease-in-out;
+}
+
+
+#sponsor:hover{
+filter:none
+}
+
+
+
+#shieldFooter:hover{
+      content:"";
+bottom: 0vh;
+      transition:1.9s;
+      transform:rotate(-360deg) translate(0,-100px);
+    
+}
+
+
+
+
+
+}

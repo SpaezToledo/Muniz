@@ -3,7 +3,7 @@
     color: black;
     font-family:  Sans-serif;
     position: relative;
-    left: 65vh;
+    left: 58vh;
     top: 5vh;
 }
 
@@ -20,7 +20,7 @@
 
 #lastImg {
     position: relative;
-    left: 60vh;
+    left: 54vh;
     top:7vh;
 }
 
@@ -36,7 +36,7 @@ z-index: 0;
     background-color: black;
     width:41.5vh;
 height: 3px;
-left: 59.8vh;
+left: 54vh;
 top: 9vh;
 }
 
@@ -52,7 +52,7 @@ bottom: 45.5vh;
 #result{
     position:relative;
     color: black;
-    left: 60vh;
+    left: 54vh;
     font-family: sans-serif;
     font-weight: 800;
     font-size: 22px ;
@@ -62,7 +62,7 @@ bottom: 45.5vh;
 #detail{
     position:relative;
     color: black;
-    left: 60vh;
+    left: 54vh;
     font-family: sans-serif;
     font-weight: 500;
     font-size: 20px ;
@@ -72,7 +72,7 @@ bottom: 45.5vh;
 #date{
     position:relative;
     color: black;
-    left: 60vh;
+    left: 54vh;
     font-family: sans-serif;
     font-weight: 500;
     font-size: 15px ;
@@ -82,7 +82,7 @@ bottom: 45.5vh;
 #stadium{
     position:relative;
     color: black;
-    left: 60vh;
+    left: 54vh;
     font-family: sans-serif;
     font-weight: 600;
     font-size: 15px ;

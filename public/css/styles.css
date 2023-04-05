@@ -8,6 +8,20 @@
     overflow-x:hidden;
     font-family: Montserrat,sans-serif;
   }
+<<<<<<< HEAD
+=======
+.hidden{
+  overflow: hidden;
+}
+.centrado{
+  height: 100vh;
+  
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+>>>>>>> c775109 (onload page & reorganization)
 
 html{
     scroll-behavior: smooth;
@@ -38,6 +52,10 @@ html{
     height: 528.8rem;
     left: 85%;
     top: 12.1vh;
+<<<<<<< HEAD
+=======
+
+>>>>>>> c775109 (onload page & reorganization)
     }
     
 
@@ -63,3 +81,10 @@ html{
   position: absolute;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> c775109 (onload page & reorganization)
